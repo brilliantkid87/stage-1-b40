@@ -1,3 +1,57 @@
-h1 {
-    color: red;
+.container-content{
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gray;
+    margin: 20px 200px 20px 200px;
+}
+
+.h2-content {
+    margin: 20px 250px 20px 250px;
+}
+
+.p-content {
+    margin: 20px 250px 20px 250px;
+    text-align: justify;
+}
+
+.p-contact {
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 5px;
+    width: 75px;
+    height: 50px 50px;
+    margin: 20px 250px 20px 250px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.cv-content {
+    margin: 20px 250px 20px 250px;
+}
+
+.fa-solid {
+    margin-left: 5px;
+} 
+
+.ul-navbar {
+    display: flex;
+    height: px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    margin: 5px;
+}
+
+.portofolio {
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 25%;
+    text-align: center;
+    box-shadow: 0 0 5px gray;
 }
