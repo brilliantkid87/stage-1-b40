@@ -1,8 +1,9 @@
+/* CONTACT */
 .container-content{
     border: 1px solid gray;
     border-radius: 5px;
     box-shadow: 0 0 3px gray;
-    margin: 20px 200px 20px 200px;
+    margin: auto;
 }
 
 .h2-content {
@@ -14,24 +15,23 @@
     text-align: justify;
 }
 
-.p-contact {
-    border-radius: 25px;
-    border: 1px solid black;
-    padding: 5px;
-    width: 75px;
-    height: 50px 50px;
-    margin: 20px 250px 20px 250px;
-    text-align: center;
+.button-contact {
+    margin: 5px 250px 20px 250px;
+    border: none;
+    border-radius: 10px;
     background-color: black;
     color: white;
+    padding: 5px 10px;
+    cursor: pointer;
 }
 
 .cv-content {
-    margin: 20px 250px 20px 250px;
+    margin: 5px 250px 20px 250px;
 }
 
 .fa-solid {
     margin-left: 5px;
+    cursor: pointer;
 } 
 
 .ul-navbar {
@@ -44,6 +44,7 @@
 .li-navbar {
     list-style-type: none;
     margin: 5px;
+    cursor: pointer;
 }
 
 .portofolio {
@@ -55,3 +56,6 @@
     text-align: center;
     box-shadow: 0 0 5px gray;
 }
+/* CONTACT END */
+
+/* NAVBAR */
