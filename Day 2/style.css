@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: green;
+    text-decoration: none;
+}
+
+header {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 3%; */
+}
+
+.logo {
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.nav-link {
+    list-style-type: none;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+button {
+    padding: 9px 20px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* content */
+
+
+.container-content{
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 0 3px gray;
+    margin: 20px 200px;
+}
+
+.h2-content {
+    margin: 20px 100px;
+}
+
+.p-content {
+    background-color: red;
+    margin: 20px 350px 20px 100px;
+    text-align: justify;
+}
+
+.p-contact {
+    margin: 20px 1000px 20px 100px;
+    border: 1px solid  black;
+    color: red;
+    cursor: pointer;
+}
+
+.cv-content {
+    margin: 5px 250px 20px 100px;
+}
+
+.fa-solid {
+    margin-left: 5px;
+    cursor: pointer;
+} 
+
+.ul-navbar {
+    display: flex;
+    height: px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.portofolio {
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 25%;
+    text-align: center;
+    box-shadow: 0 0 5px gray;
+}
