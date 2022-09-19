@@ -1,0 +1,46 @@
+* {
+    background-color: rgb(214, 211, 211);
+}
+
+form {
+    /* background-color: black; */
+    width: 350px;
+    margin: 75px auto;
+    padding: 10px;
+}
+
+form div {
+    margin-top: 10px;
+}
+
+form div h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form div label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form div input, select, textarea {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    box-shadow: 2px 3px rgb(114, 113, 113);
+}
+
+form div button {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 5px 16px;
+    border: none;
+    margin-left: 276px;
+}
